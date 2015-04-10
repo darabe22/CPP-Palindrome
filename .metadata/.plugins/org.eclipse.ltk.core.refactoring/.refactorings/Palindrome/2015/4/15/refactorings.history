@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Palindrome/src/SetArray.h&apos; to &apos;ArraySet.h&apos;" description="Rename resource &apos;SetArray.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/SetArray.h" name="ArraySet.h" stamp="1428636932922" updateReferences="true"/>
+</session>

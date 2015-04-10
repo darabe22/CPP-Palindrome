@@ -1,0 +1,10 @@
+#pragma once
+#include <array>
+
+template <class E>
+class SetArray : vector {
+private:
+	array setArray<E>;
+public:
+	bool add();
+}

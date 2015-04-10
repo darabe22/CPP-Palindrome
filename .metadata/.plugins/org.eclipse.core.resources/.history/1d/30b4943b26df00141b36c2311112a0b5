@@ -1,0 +1,9 @@
+#pragma once
+#include <array>
+
+class SetArray : vector {
+private:
+	array setArray;
+public:
+	bool add();
+}

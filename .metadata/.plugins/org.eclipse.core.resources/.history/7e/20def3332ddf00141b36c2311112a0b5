@@ -1,0 +1,13 @@
+#pragma once
+#include <vector>
+using namespace std;
+
+class SetArray : vector<class E> {
+
+private:
+	vector<E> setArray;
+	int position;
+
+public:
+	bool add();
+}
