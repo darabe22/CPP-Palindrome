@@ -1,0 +1,16 @@
+/*
+ * ArraySet.cpp
+ *
+ *  Created on: Apr 15, 2015
+ *      Author: Durelle
+ */
+
+#include "ArraySet.h"
+
+bool ArraySet::add(E element){
+	return false;
+};
+
+bool ArraySet::contains(E element);
+	vector<E> toVector(){return arraySet;};
+	string toString();

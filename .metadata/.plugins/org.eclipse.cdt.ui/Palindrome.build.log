@@ -1,32 +1,7 @@
-22:42:13 **** Incremental Build of configuration Debug for project Palindrome ****
+19:34:05 **** Incremental Build of configuration Debug for project Palindrome ****
 Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Palindrome.o" "..\\src\\Palindrome.cpp" 
-..\src\Palindrome.cpp: In function 'int main()':
-..\src\Palindrome.cpp:14:7: warning: unused variable 'ignoreCaps' [-Wunused-variable]
-  bool ignoreCaps, isPalindrome, repeat;
-       ^
-..\src\Palindrome.cpp:14:19: warning: unused variable 'isPalindrome' [-Wunused-variable]
-  bool ignoreCaps, isPalindrome, repeat;
-                   ^
-..\src\Palindrome.cpp:14:33: warning: unused variable 'repeat' [-Wunused-variable]
-  bool ignoreCaps, isPalindrome, repeat;
-                                 ^
-..\src\Palindrome.cpp:15:7: warning: unused variable 'textAsChar' [-Wunused-variable]
-  char textAsChar, frontChar, backChar;
-       ^
-..\src\Palindrome.cpp:15:19: warning: unused variable 'frontChar' [-Wunused-variable]
-  char textAsChar, frontChar, backChar;
-                   ^
-..\src\Palindrome.cpp:15:30: warning: unused variable 'backChar' [-Wunused-variable]
-  char textAsChar, frontChar, backChar;
-                              ^
-..\src\Palindrome.cpp:17:6: warning: unused variable 'frontIndex' [-Wunused-variable]
-  int frontIndex, backIndex;
-      ^
-..\src\Palindrome.cpp:17:18: warning: unused variable 'backIndex' [-Wunused-variable]
-  int frontIndex, backIndex;
-                  ^
-g++ -o Palindrome.exe "src\\Palindrome.o" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArraySet.o" "..\\src\\ArraySet.cpp" 
+g++ -o Palindrome.exe "src\\Palindrome.o" "src\\ArraySet.o" 
 
-22:42:20 Build Finished (took 7s.422ms)
+19:34:08 Build Finished (took 3s.119ms)
 

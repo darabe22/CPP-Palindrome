@@ -14,6 +14,6 @@ public:
 	ArraySet(){arraySet = new vector<E>();};
 	bool add(E element);
 	bool contains(E element);
-	vector<E> toVector();
+	vector<E> toVector(){};
 	string toString();
 };

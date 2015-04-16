@@ -73,3 +73,224 @@ g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Palindrome.o" "..\\src\\Palindr
   int frontIndex, backIndex;
                   ^
 g++ -o Palindrome.exe "src\\Palindrome.o" 
+19:20:41 **** Incremental Build of configuration Debug for project Palindrome ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArraySet.o" "..\\src\\ArraySet.cpp" 
+..\src\ArraySet.cpp:7:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+In file included from ..\src\ArraySet.cpp:8:0:
+..\src\ArraySet.h:1:13: warning: extra tokens at end of #pragma directive [enabled by default]
+ #pragma once;
+             ^
+..\src\ArraySet.h:2:18: warning: extra tokens at end of #include directive [enabled by default]
+ #include <vector>;
+                  ^
+In file included from ..\src\ArraySet.cpp:8:0:
+..\src\ArraySet.h:17:2: error: 'string' does not name a type
+  string toString();
+  ^
+..\src\ArraySet.cpp:11:6: error: 'template<class E> class ArraySet' used without template parameters
+ bool ArraySet::add(E element){
+      ^
+..\src\ArraySet.cpp:11:20: error: 'E' was not declared in this scope
+ bool ArraySet::add(E element){
+                    ^
+..\src\ArraySet.cpp:11:30: error: expected ',' or ';' before '{' token
+ bool ArraySet::add(E element){
+                              ^
+..\src\ArraySet.cpp:15:6: error: 'template<class E> class ArraySet' used without template parameters
+ bool ArraySet::contains(E element){
+      ^
+..\src\ArraySet.cpp:15:25: error: 'E' was not declared in this scope
+ bool ArraySet::contains(E element){
+                         ^
+..\src\ArraySet.cpp:15:35: error: expected ',' or ';' before '{' token
+ bool ArraySet::contains(E element){
+                                   ^
+..\src\ArraySet.cpp:19:8: error: 'E' was not declared in this scope
+ vector<E> ArraySet::toVector(){
+        ^
+..\src\ArraySet.cpp:19:9: error: template argument 1 is invalid
+ vector<E> ArraySet::toVector(){
+         ^
+..\src\ArraySet.cpp:19:9: error: template argument 2 is invalid
+..\src\ArraySet.cpp:19:11: error: 'template<class E> class ArraySet' used without template parameters
+ vector<E> ArraySet::toVector(){
+           ^
+..\src\ArraySet.cpp: In function 'int toVector()':
+..\src\ArraySet.cpp:20:9: error: 'arraySet' was not declared in this scope
+  return arraySet;
+         ^
+..\src\ArraySet.cpp: At global scope:
+..\src\ArraySet.cpp:23:1: error: 'string' does not name a type
+ string ArraySet::toString(){
+ ^
+..\src\ArraySet.cpp: In function 'int toVector()':
+..\src\ArraySet.cpp:21:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+19:22:18 **** Incremental Build of configuration Debug for project Palindrome ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArraySet.o" "..\\src\\ArraySet.cpp" 
+..\src\ArraySet.cpp:7:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+In file included from ..\src\ArraySet.cpp:8:0:
+..\src\ArraySet.h:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+..\src\ArraySet.cpp:11:6: error: 'template<class E> class ArraySet' used without template parameters
+ bool ArraySet::add(E element){
+      ^
+..\src\ArraySet.cpp:11:20: error: 'E' was not declared in this scope
+ bool ArraySet::add(E element){
+                    ^
+..\src\ArraySet.cpp:11:30: error: expected ',' or ';' before '{' token
+ bool ArraySet::add(E element){
+                              ^
+..\src\ArraySet.cpp:15:6: error: 'template<class E> class ArraySet' used without template parameters
+ bool ArraySet::contains(E element){
+      ^
+..\src\ArraySet.cpp:15:25: error: 'E' was not declared in this scope
+ bool ArraySet::contains(E element){
+                         ^
+..\src\ArraySet.cpp:15:35: error: expected ',' or ';' before '{' token
+ bool ArraySet::contains(E element){
+                                   ^
+..\src\ArraySet.cpp:19:8: error: 'E' was not declared in this scope
+ vector<E> ArraySet::toVector(){
+        ^
+..\src\ArraySet.cpp:19:9: error: template argument 1 is invalid
+ vector<E> ArraySet::toVector(){
+         ^
+..\src\ArraySet.cpp:19:9: error: template argument 2 is invalid
+..\src\ArraySet.cpp:19:11: error: 'template<class E> class ArraySet' used without template parameters
+ vector<E> ArraySet::toVector(){
+           ^
+..\src\ArraySet.cpp: In function 'int toVector()':
+..\src\ArraySet.cpp:20:9: error: 'arraySet' was not declared in this scope
+  return arraySet;
+         ^
+..\src\ArraySet.cpp: At global scope:
+..\src\ArraySet.cpp:23:8: error: 'template<class E> class ArraySet' used without template parameters
+ string ArraySet::toString(){
+        ^
+..\src\ArraySet.cpp: In function 'std::string toString()':
+..\src\ArraySet.cpp:24:13: error: could not convert '(operator new(4u), (<statement>, ((std::string*)<anonymous>)))' from 'std::string* {aka std::basic_string<char>*}' to 'std::string {aka std::basic_string<char>}'
+  return new string;
+             ^
+..\src\ArraySet.cpp: In function 'int toVector()':
+..\src\ArraySet.cpp:21:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\src\ArraySet.cpp: In function 'std::string toString()':
+..\src\ArraySet.cpp:25:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+19:22:46 **** Incremental Build of configuration Debug for project Palindrome ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArraySet.o" "..\\src\\ArraySet.cpp" 
+..\src\ArraySet.cpp:7:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+In file included from ..\src\ArraySet.cpp:8:0:
+..\src\ArraySet.h:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+..\src\ArraySet.cpp:11:6: error: 'template<class E> class ArraySet' used without template parameters
+ bool ArraySet::add(E element){
+      ^
+..\src\ArraySet.cpp:11:20: error: 'E' was not declared in this scope
+ bool ArraySet::add(E element){
+                    ^
+..\src\ArraySet.cpp:11:30: error: expected ',' or ';' before '{' token
+ bool ArraySet::add(E element){
+                              ^
+..\src\ArraySet.cpp:15:6: error: 'template<class E> class ArraySet' used without template parameters
+ bool ArraySet::contains(E element){
+      ^
+..\src\ArraySet.cpp:15:25: error: 'E' was not declared in this scope
+ bool ArraySet::contains(E element){
+                         ^
+..\src\ArraySet.cpp:15:35: error: expected ',' or ';' before '{' token
+ bool ArraySet::contains(E element){
+                                   ^
+..\src\ArraySet.cpp:19:8: error: 'E' was not declared in this scope
+ vector<E> ArraySet::toVector(){
+        ^
+..\src\ArraySet.cpp:19:9: error: template argument 1 is invalid
+ vector<E> ArraySet::toVector(){
+         ^
+..\src\ArraySet.cpp:19:9: error: template argument 2 is invalid
+..\src\ArraySet.cpp:19:11: error: 'template<class E> class ArraySet' used without template parameters
+ vector<E> ArraySet::toVector(){
+           ^
+..\src\ArraySet.cpp: In function 'int toVector()':
+..\src\ArraySet.cpp:20:9: error: 'arraySet' was not declared in this scope
+  return arraySet;
+         ^
+..\src\ArraySet.cpp: At global scope:
+..\src\ArraySet.cpp:23:8: error: 'template<class E> class ArraySet' used without template parameters
+ string ArraySet::toString(){
+        ^
+..\src\ArraySet.cpp: In function 'std::string toString()':
+..\src\ArraySet.cpp:24:13: error: could not convert '(operator new(4u), (<statement>, ((std::string*)<anonymous>)))' from 'std::string* {aka std::basic_string<char>*}' to 'std::string {aka std::basic_string<char>}'
+  return new string;
+             ^
+..\src\ArraySet.cpp: In function 'int toVector()':
+..\src\ArraySet.cpp:21:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\src\ArraySet.cpp: In function 'std::string toString()':
+..\src\ArraySet.cpp:25:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+19:32:26 **** Incremental Build of configuration Debug for project Palindrome ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArraySet.o" "..\\src\\ArraySet.cpp" 
+In file included from ..\src\ArraySet.cpp:8:0:
+..\src\ArraySet.h:8:7: error: 'ArraySet' is not a class template
+ class ArraySet<E>{
+       ^
+..\src\ArraySet.cpp:22:11: error: redefinition of 'std::vector<E> ArraySet<E>::toVector()'
+ vector<E> ArraySet<E>::toVector(){
+           ^
+In file included from ..\src\ArraySet.cpp:8:0:
+..\src\ArraySet.h:17:12: error: 'std::vector<E> ArraySet<E>::toVector()' previously declared here
+  vector<E> toVector(){return arraySet;};
+            ^
+19:32:49 **** Incremental Build of configuration Debug for project Palindrome ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArraySet.o" "..\\src\\ArraySet.cpp" 
+..\src\ArraySet.cpp:22:11: error: redefinition of 'std::vector<E> ArraySet<E>::toVector()'
+ vector<E> ArraySet<E>::toVector(){
+           ^
+In file included from ..\src\ArraySet.cpp:8:0:
+..\src\ArraySet.h:17:12: error: 'std::vector<E> ArraySet<E>::toVector()' previously declared here
+  vector<E> toVector(){return arraySet;};
+            ^
+19:33:38 **** Incremental Build of configuration Debug for project Palindrome ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArraySet.o" "..\\src\\ArraySet.cpp" 
+..\src\ArraySet.cpp:22:11: error: redefinition of 'std::vector<E> ArraySet<E>::toVector()'
+ vector<E> ArraySet<E>::toVector(){
+           ^
+In file included from ..\src\ArraySet.cpp:8:0:
+..\src\ArraySet.h:17:12: error: 'std::vector<E> ArraySet<E>::toVector()' previously declared here
+  vector<E> toVector(){return arraySet;};
+            ^
+19:33:55 **** Incremental Build of configuration Debug for project Palindrome ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArraySet.o" "..\\src\\ArraySet.cpp" 
+..\src\ArraySet.cpp:22:11: error: redefinition of 'std::vector<E> ArraySet<E>::toVector()'
+ vector<E> ArraySet<E>::toVector(){
+           ^
+In file included from ..\src\ArraySet.cpp:8:0:
+..\src\ArraySet.h:17:12: error: 'std::vector<E> ArraySet<E>::toVector()' previously declared here
+  vector<E> toVector(){};
+            ^
+19:34:05 **** Incremental Build of configuration Debug for project Palindrome ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArraySet.o" "..\\src\\ArraySet.cpp" 
+g++ -o Palindrome.exe "src\\Palindrome.o" "src\\ArraySet.o" 

@@ -1,6 +1,4 @@
-
-#include <vector>
-#include <string>
+#pragma once
 
 using namespace std;
 
@@ -12,8 +10,6 @@ private:
 
 public:
 	ArraySet(){arraySet = new vector<E>();};
-	bool add(E element);
-	bool contains(E element);
-	vector<E> toVector();
-	string toString();
+	bool add();
+
 };
