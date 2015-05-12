@@ -8,6 +8,7 @@
 
 #include <iostream>
 #include <string>
+#include "ArraySet.h"
 using namespace std;
 
 int main() {
@@ -15,7 +16,7 @@ int main() {
 	char textAsChar, frontChar, backChar;
 	string text;
 	int frontIndex, backIndex;
-
+	ArraySet inputCharList, addPalChars;
 
 	cout << "Define your palindrome\n";
 	cout << "Do you want to ignore capitalization?    Default behavior is yes.  Otherwise, type n for no.  Press Enter\n";

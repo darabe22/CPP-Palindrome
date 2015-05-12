@@ -294,3 +294,11 @@ In file included from ..\src\ArraySet.cpp:8:0:
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArraySet.o" "..\\src\\ArraySet.cpp" 
 g++ -o Palindrome.exe "src\\Palindrome.o" "src\\ArraySet.o" 
+21:31:37 **** Incremental Build of configuration Debug for project Palindrome ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArraySet.o" "..\\src\\ArraySet.cpp" 
+g++ -o Palindrome.exe "src\\Palindrome.o" "src\\ArraySet.o" 
+21:39:06 **** Incremental Build of configuration Debug for project Palindrome ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArraySet.o" "..\\src\\ArraySet.cpp" 
+g++ -o Palindrome.exe "src\\Palindrome.o" "src\\ArraySet.o" 

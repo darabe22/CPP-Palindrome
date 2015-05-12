@@ -8,10 +8,10 @@ template <class E>
 class ArraySet{
 
 private:
-	vector<E> arraySet;
+	vector<E> vectorSet;
 
 public:
-	ArraySet(){arraySet = new vector<E>();};
+	ArraySet(){vectorSet = new vector<E>();};
 	bool add(E element);
 	bool contains(E element);
 	vector<E> toVector();

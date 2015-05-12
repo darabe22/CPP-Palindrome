@@ -10,20 +10,38 @@ using namespace std;
 
 template <class E>
 bool ArraySet<E>::add(E element){
-	return false;
+	bool addSuccessful=false;
+
+	if( !contains(element) ){
+		vectorSet.push_back(element);
+		addSuccessful=true;
+	}
+	return addSuccessful;
 }
 
 template <class E>
 bool ArraySet<E>::contains(E element){
-	return false;
+	bool hasElement=false;
+	if( find(vectorSet.begin(), vectorSet.end(), element) != vectorSet.end() ){
+		hasElement=true;
+	}
+	return hasElement;
 }
 
 template <class E>
 vector<E> ArraySet<E>::toVector(){
-	return arraySet;
+	return vectorSet;
 }
 
 template <class E>
 string ArraySet<E>::toString(){
-	return new string();
+	string vectorString;
+	vectorString = new string();
+
+	for(int x=0; x<vectorSet.size(); x++){
+//assumes that the elements within vectorSet can be appended to a string
+		vectorString+=vectorSet[x];
+	}
+
+	return vectorString;
 }
